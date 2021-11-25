@@ -2,6 +2,8 @@ import Firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+
+
 const config = { 
     apiKey: "AIzaSyCis39AnmszWRS1YR-JdOxxxJXD1wWjcN0",
     authDomain: "igram-f0dd2.firebaseapp.com",
@@ -13,6 +15,7 @@ const config = {
 
 const firebase = Firebase.initializeApp(config);
 const { FieldValue } = Firebase.firestore;
+
 
 // console.log("firebase", firebase);
 
